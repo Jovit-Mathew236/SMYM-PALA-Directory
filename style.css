@@ -57,7 +57,7 @@ table tr p {
 
 @media only screen and (max-width: 400px) {
     table tr p {
-        padding: calc(15px - 3vw);
+        padding: 13px calc(15px - 3vw);
         font-size: 14px;
     }
 }
