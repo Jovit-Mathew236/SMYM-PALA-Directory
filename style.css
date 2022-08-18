@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.form-group {
+    margin-left: 3vw;
+    background-color: aqua;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+select{
+    border-radius: 2px;
+    background: beige;
+}
+.units{
+    overflow-x: auto;
+}
+
+div.table {
+    padding: 20px 0px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table tr th,td,table {
+    padding: 0.2rem 1rem;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1vw;
+
+}
+
+
+table th {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+table tr p {
+    padding: 15px;
+}
