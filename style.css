@@ -19,6 +19,8 @@ h1 {
 select {
     border-radius: 2px;
     background: beige;
+    border: none;
+    outline: none;
 }
 
 .units {
@@ -58,6 +60,6 @@ table tr p {
 @media only screen and (max-width: 400px) {
     table tr p {
         padding: 13px calc(15px - 3vw);
-        font-size: 14px;
+        font-size: 14.5px;
     }
 }
