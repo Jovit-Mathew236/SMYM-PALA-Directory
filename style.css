@@ -1,27 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 h1 {
     margin: auto;
     padding: 2vh 0px;
     text-align: center;
+    background-image: linear-gradient(323deg, #11eb59, #005dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    /* margin-left: 75vw; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #b1b1b1e6;
+}
+
+.logo .logo-img{
+    background-image: url(./images/smym.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
 }
 
 .form-group {
     margin-left: 3vw;
-    background-color: #3399FF;
+    margin-top: -40px;
+    background-image: linear-gradient(128deg,#20bf55 54%,rgb(239 239 239/36%) 0,rgb(206 206 206/41%) 55%,#01BAEF 0);
     width: fit-content;
     border-radius: 5px;
     padding: 5px;
+    color: white;
+    font-size: large;
 }
 
 select {
     border-radius: 2px;
-    background: #CCCC99;
+    background: #ffffff57;
     border: none;
+    color: #3a3a3a;
     outline: none;
+
 }
 
 .units {
